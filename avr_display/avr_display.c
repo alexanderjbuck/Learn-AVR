@@ -29,7 +29,7 @@ int main() {
 	while (1) {
 		lcd_line_two();
 		if (i) {
-			lcd_write_string(PSTR("I love you!"));
+			lcd_write_string(PSTR("NY, CA 2010"));
 		} else {
 			lcd_write_string(PSTR("           "));
 		}
