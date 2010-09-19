@@ -29,9 +29,9 @@ int main() {
 	while (1) {
 		lcd_line_two();
 		if (i) {
-			lcd_write_string(PSTR("NY, CA 2010"));
+			lcd_write_string(PSTR("   I LOVE YOU"));
 		} else {
-			lcd_write_string(PSTR("           "));
+			lcd_write_string(PSTR("             "));
 		}
 		i = (i+1) % 2;
 		_delay_ms(1000);
